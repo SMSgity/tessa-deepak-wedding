@@ -1,0 +1,3 @@
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("show")}),{threshold:.12});
+document.querySelectorAll(".reveal").forEach(el=>{el.style.opacity="0";el.style.transform="translateY(24px)";el.style.transition="opacity .9s ease,transform .9s ease";observer.observe(el)});
+const style=document.createElement("style");style.textContent=".show{opacity:1!important;transform:none!important}";document.head.appendChild(style);

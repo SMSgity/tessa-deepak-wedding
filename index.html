@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tessa & Deepak | 30 December 2026</title>
+<title>Deepak & Tessa | 30 December 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500&family=Italianno&display=swap" rel="stylesheet">
@@ -11,20 +11,51 @@
 </head>
 <body>
 <div class="paper"></div>
+
+<!-- Opening envelope -->
+<section class="envelope-screen" id="envelopeScreen" aria-label="Wedding invitation envelope">
+  <div class="envelope-bg"></div>
+  <div class="envelope-screen-content">
+    <p class="eyebrow">A WEDDING INVITATION</p>
+    <div class="envelope-wrap" id="openInvitation" role="button" tabindex="0" aria-label="Open wedding invitation">
+      <div class="envelope-shadow"></div>
+      <div class="envelope">
+        <div class="envelope-flap"></div>
+        <div class="envelope-front"></div>
+        <div class="envelope-side left"></div>
+        <div class="envelope-side right"></div>
+        <div class="envelope-bottom"></div>
+        <div class="letter">
+          <p class="letter-small">THE WEDDING OF</p>
+          <h1>Deepak</h1>
+          <span class="letter-and">&amp;</span>
+          <h1>Tessa</h1>
+          <div class="letter-line"></div>
+          <p class="letter-date">30 · 12 · 2026</p>
+        </div>
+        <div class="wax-seal">D<br><span>·</span><br>T</div>
+      </div>
+    </div>
+    <p class="open-hint">CLICK THE ENVELOPE TO OPEN</p>
+    <p class="cover-note">With joyful hearts, we invite you to celebrate our beginning.</p>
+  </div>
+</section>
+
 <header>
-  <div class="mark">T <span>·</span> D</div>
+  <div class="mark">D <span>·</span> T</div>
   <nav><a href="#story">OUR STORY</a><a href="#wedding">WEDDING</a><a href="#reception">RECEPTION</a></nav>
 </header>
 
+<main id="invitation">
 <section class="hero">
   <div class="hero-bg"></div><div class="hero-shade"></div>
   <div class="hero-content reveal">
     <div class="crest">✦</div>
     <p class="eyebrow">TOGETHER WITH OUR FAMILIES<br>WE INVITE YOU TO</p>
     <p class="eyebrow">THE WEDDING OF</p>
-    <h1>Tessa Raju Akkarapatty</h1>
-    <div class="and">and</div>
     <h1>Deepak Mathew Sunny</h1>
+    <div class="and">and</div>
+    <h1>Tessa Raju Akkarapatty</h1>
     <div class="rule">◆</div>
     <div class="date">30 · 12 · 2026</div>
     <p class="note">With joyful hearts, we invite you to witness<br>the beginning of our forever.</p>
@@ -44,9 +75,9 @@
   <p class="eyebrow">THE FAMILIES</p>
   <h2>Two families,<br>one beautiful beginning.</h2>
   <div class="families-grid">
-    <div class="family reveal"><p class="label">THE BRIDE</p><h3>Tessa Raju<br>Akkarapatty</h3><p>Daughter of<br>Raju Thomas &amp; Mincy Raju</p></div>
-    <div class="amp">&amp;</div>
     <div class="family reveal"><p class="label">THE GROOM</p><h3>Deepak Mathew<br>Sunny</h3><p>Son of<br>Sunny Vellapilly &amp; Beena Sunny</p></div>
+    <div class="amp">&amp;</div>
+    <div class="family reveal"><p class="label">THE BRIDE</p><h3>Tessa Raju<br>Akkarapatty</h3><p>Daughter of<br>Raju Thomas &amp; Mincy Raju</p></div>
   </div>
 </section>
 
@@ -60,7 +91,7 @@
       <div><span>TIME</span><strong>11:00 AM</strong></div>
       <div><span>VENUE</span><strong>ST. MARY'S MALANKARA<br>CATHOLIC CHURCH</strong><em>Kattilapoovam, Thrissur</em></div>
     </div>
-    <a class="map" href="https://maps.app.goo.gl/Zj9r1mwW7b2x2Bt29?g_st=aw" target="_blank">VIEW ON GOOGLE MAPS ↗</a>
+    <a class="map" href="https://maps.app.goo.gl/Zj9r1mwW7b2x2Bt29?g_st=aw" target="_blank" rel="noopener">VIEW ON GOOGLE MAPS ↗</a>
   </div>
 </section>
 
@@ -75,14 +106,15 @@
 
 <section class="closing">
   <div class="closing-card reveal">
-    <div class="seal">T<br><span>·</span><br>D</div>
+    <div class="seal">D<br><span>·</span><br>T</div>
     <p class="eyebrow">YOUR PRESENCE IS OUR BLESSING</p>
     <h2>See you<br>on our day.</h2>
     <p>We cannot wait to celebrate this beautiful beginning with you.</p>
-    <div class="signature">Tessa &amp; Deepak</div>
+    <div class="signature">Deepak &amp; Tessa</div>
     <p class="final-date">30 · 12 · 2026</p>
   </div>
 </section>
+</main>
 <script src="script.js"></script>
 </body>
 </html>
